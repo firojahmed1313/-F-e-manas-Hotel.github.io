@@ -1,0 +1,117 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    
+    
+}
+.top-header{
+    height: fit-content;
+    /*background-color: rgb(59, 33, 50);*/
+    
+    
+}
+/*
+.top-header .top-left{
+    height: 80px;
+
+}
+.top-header .top-left a{
+    display: block;
+    color: white;
+    line-height: 80px;
+    text-decoration: none;
+    font-weight: bold;
+}
+.top-header .top-mid{
+    height: 80px;
+
+}
+.top-header .top-mid span{
+    display:block;
+    color: rgb(217, 182, 182);
+    text-align: center;
+    font-size: 50px;
+    line-height: 80px;
+    font-style: italic;
+    font-weight: bold;
+}
+.top-header .top-right{
+    height: 100px;
+
+}
+.top-header .top-right ul{
+    text-align: center;
+}
+.top-header .top-right ul li{
+    display: inline-block;
+}
+.top-header .top-right ul li a{
+    font-size: 30px;
+    color: rgb(230, 47, 47);
+    line-height: 80px;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+.top-header .mid-left{
+    height: 50px;
+}
+*/
+.top-header .mid-mid a {
+    display: block;
+    text-align: center;
+    color: rgb(30, 13, 64);
+    font-size: 40px;
+    margin-top: 30px;
+    text-decoration: none;
+    font-weight: bold;
+}
+.top-header .mid-right{
+    height: 50px;
+}
+/*
+.mid2-left{
+    height: 350px;
+}
+.mid2-mid {
+    height: 350px;
+    background-color: rgb(91, 50, 50);
+}*/
+#name{
+    margin-top: 10px;
+}
+#email{
+    margin-top: 10px;
+}
+#message{
+    margin-top: 10px;
+}
+#submit{
+    margin: 10px;
+    background-color: rgb(127, 7, 107);
+    border-radius: 10%;
+    border: 2px solid yellow;
+    font-size: 20px;
+    color: white;
+}
+/*
+.mid2-right{
+    height: 350px;
+}*/
+.last-header{
+    margin-top: 80px;
+    height:200px;
+    background-color: rgb(59, 33, 50);
+    color: burlywood;
+    float:inline-end;
+}
+.last-header .last-left{
+    margin-left: 30px;
+}
+
+.mid{
+
+    height: 330px;
+    
+}

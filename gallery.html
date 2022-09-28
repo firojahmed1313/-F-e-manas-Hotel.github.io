@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="./img/favicon.png">
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+      integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./css/main.css">
+    <title>Gallery</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="./index.html">
+            <img src="./img/logo.png" width="50" height="50" alt="">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+    
+    
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link hover_item" href="./index.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            
+    
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+                Hotel
+              </a>
+              <div class="dropdown-menu hover_item" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item " href="./property_list_delhi.html">Delhi</a>
+                <a class="dropdown-item" href="./property_list_hyderabad.html">Hyderabad</a>
+                <a class="dropdown-item" href="./property_list_kolkata.html">Kolkata</a>
+                <a class="dropdown-item" href="./property_list_mumbai.html">Mumbai</a>
+                
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link hover_item" href="./contact.html">Contact Us</a>
+            </li>
+    
+  
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Search</button>
+          </form>
+          
+        </div>
+    </nav>
+    <div class="container">
+        <div class="row">
+            <div class="row">
+                <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                    <a class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title=""
+                       data-image="./img/card1.jpg"
+                       data-target="#image-gallery">
+                        <img class="img-thumbnail"
+                             src="./img/card1.jpg"
+                             alt="Another alt text">
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                    <a class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title=""
+                       data-image="./img/card2.jpg"
+                       data-target="#image-gallery">
+                        <img class="img-thumbnail"
+                             src="./img/card2.jpg"
+                             alt="Another alt text">
+                    </a>
+                </div>
+    
+                <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                    <a class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title=""
+                       data-image="./img/card3.jpg"
+                       data-target="#image-gallery">
+                        <img class="img-thumbnail"
+                             src="./img/card3.jpg"
+                             alt="Another alt text">
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                    <a class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title="Test1"
+                       data-image="./img/card4.jpg"
+                       data-target="#image-gallery">
+                        <img class="img-thumbnail"
+                             src="./img/card4.jpg"
+                             alt="Another alt text">
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                    <a class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title="Im so nice"
+                       data-image="./img/properties/fabExpress_marol_1.jpg"
+                       data-target="#image-gallery">
+                        <img class="img-thumbnail"
+                             src="./img/properties/fabExpress_marol_1.jpg"
+                             alt="Another alt text">
+                    </a>
+                </div>
+    
+    
+    
+                <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                    <a class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title="Im so nice"
+                       data-image="./img/properties/hotel_apex_1.jpg"
+                       data-target="#image-gallery">
+                        <img class="img-thumbnail"
+                             src="./img/properties/hotel_apex_1.jpg"
+                             alt="Another alt text">
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                    <a class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title="Im so nice"
+                       data-image="./img/properties/hotel_apex_2.jpg"
+                       data-target="#image-gallery">
+                        <img class="img-thumbnail"
+                             src="./img/properties/hotel_apex_2.jpg"
+                             alt="Another alt text">
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                    <a class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title="Im so nice"
+                       data-image="./img/properties/hotel_apex_3.jpg"
+                       data-target="#image-gallery">
+                        <img class="img-thumbnail"
+                             src="./img/properties/hotel_apex_3.jpg"
+                             alt="Another alt text">
+                    </a>
+                </div>
+    
+    
+    
+                <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                    <a class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title="Im so nice"
+                       data-image="./img/properties/hotel_delhi_1.jpg"
+                       data-target="#image-gallery">
+                        <img class="img-thumbnail"
+                             src="./img/properties/hotel_delhi_1.jpg"
+                             alt="Another alt text">
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                    <a class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title="Im so nice"
+                       data-image="./img/properties/hotel_delhi_2.jpg"
+                       data-target="#image-gallery">
+                        <img class="img-thumbnail"
+                             src="./img/properties/hotel_delhi_2.jpg"
+                             alt="Another alt text">
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                    <a class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title="Im so nice"
+                       data-image="./img/properties/hotel_delhi_3.jpg"
+                       data-target="#image-gallery">
+                        <img class="img-thumbnail"
+                             src="./img/properties/hotel_delhi_3.jpg"
+                             alt="Another alt text">
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                    <a class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title="Im so nice"
+                       data-image="./img/properties/hotel_grandeur_1.jpg"
+                       data-target="#image-gallery">
+                        <img class="img-thumbnail"
+                             src="./img/properties/hotel_grandeur_1.jpg"
+                             alt="Another alt text">
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                    <a class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title="Im so nice"
+                       data-image="./img/properties/hotel_hyd_1.jpg"
+                       data-target="#image-gallery">
+                        <img class="img-thumbnail"
+                             src="./img/properties/hotel_hyd_1.jpg"
+                             alt="Another alt text">
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                    <a class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title="Im so nice"
+                       data-image="./img/properties/hotel_hyd_2.jfif"
+                       data-target="#image-gallery">
+                        <img class="img-thumbnail"
+                             src="./img/properties/hotel_hyd_2.jfif"
+                             alt="Another alt text">
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                    <a class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title="Im so nice"
+                       data-image="./img/properties/hotel_hyd_3.jfif"
+                       data-target="#image-gallery">
+                        <img class="img-thumbnail"
+                             src="./img/properties/hotel_hyd_3.jfif"
+                             alt="Another alt text">
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                    <a class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title="Im so nice"
+                       data-image="./img/properties/hotel_kolkata_1.jpg"
+                       data-target="#image-gallery">
+                        <img class="img-thumbnail"
+                             src="./img/properties/hotel_kolkata_1.jpg"
+                             alt="Another alt text">
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                    <a class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title="Im so nice"
+                       data-image="./img/properties/hotel_kolkata_2.jpg"
+                       data-target="#image-gallery">
+                        <img class="img-thumbnail"
+                             src="./img/properties/hotel_kolkata_2.jpg"
+                             alt="Another alt text">
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                    <a class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title="Im so nice"
+                       data-image="./img/properties/hotel_kolkata_3.jpg"
+                       data-target="#image-gallery">
+                        <img class="img-thumbnail"
+                             src="./img/properties/hotel_kolkata_3.jpg"
+                             alt="Another alt text">
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                    <a class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title="Im so nice"
+                       data-image="./img/properties/1d4f0757fdb86d5f.jpg"
+                       data-target="#image-gallery">
+                        <img class="img-thumbnail"
+                             src="./img/properties/1d4f0757fdb86d5f.jpg"
+                             alt="Another alt text">
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                    <a class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title="Im so nice"
+                       data-image="./img/properties/6343da10f7206b0f.jpg"
+                       data-target="#image-gallery">
+                        <img class="img-thumbnail"
+                             src="./img/properties/6343da10f7206b0f.jpg"
+                             alt="Another alt text">
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                    <a class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title="Im so nice"
+                       data-image="./img/slide1.jpg"
+                       data-target="#image-gallery">
+                        <img class="img-thumbnail"
+                             src="./img/slide1.jpg"
+                             alt="Another alt text">
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                    <a class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title="Im so nice"
+                       data-image="./img/slide2.jpg"
+                       data-target="#image-gallery">
+                        <img class="img-thumbnail"
+                             src="./img/slide2.jpg"
+                             alt="Another alt text">
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                    <a class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title="Im so nice"
+                       data-image="./img/slide3.jpg"
+                       data-target="#image-gallery">
+                        <img class="img-thumbnail"
+                             src="./img/slide3.jpg"
+                             alt="Another alt text">
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                    <a class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title="Im so nice"
+                       data-image="./img/slide4.jpg"
+                       data-target="#image-gallery">
+                        <img class="img-thumbnail"
+                             src="./img/slide4.jpg"
+                             alt="Another alt text">
+                    </a>
+                </div>
+
+            </div>
+    
+    
+            <div class="modal fade" id="image-gallery" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-lg">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h4 class="modal-title" id="image-gallery-title"></h4>
+                            <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">×</span><span class="sr-only">Close</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <img id="image-gallery-image" class="img-responsive col-md-12" src="">
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary float-left" id="show-previous-image"><i class="fa fa-arrow-left"></i>
+                            </button>
+    
+                            <button type="button" id="show-next-image" class="btn btn-secondary float-right"><i class="fa fa-arrow-right"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer-basic color_whight">
+        <footer>
+            <div class="social color_whight"><a href="#"><i class="icon fab fa-instagram color_whight"></i></a><a href="#"><i class="icon fab fa-snapchat color_whight"></i></a><a href="#"><i class="icon fab fa-twitter color_whight"></i></a><a href="#"><i class="icon fab fa-facebook color_whight"></i></a></div>
+            <div class="footer_page">
+                <ul class="list-inline">
+                  <li class="list-inline-item color_whight"><a href="#">Home</a></li>
+                  <li class="list-inline-item color_whight"><a href="#">Services</a></li>
+                  <li class="list-inline-item color_whight"><a href="#">About</a></li>
+                  
+                </ul>
+                <ul class="list-inline">
+                  <li class="list-inline-item color_whight"><a href="#">Terms</a></li>
+                  <li class="list-inline-item color_whight"><a href="#">Privacy Policy</a></li>
+                </ul>
+            </div>
+            <p class="copyright">F-e-manas Hotel &copy; 2022, All Rights Reserved</p>
+        </footer>
+    </div>
+
+    <script type="text/javascript" src="./js/jquery.js"></script>
+    <script type="text/javascript" src="./js/bootstrap.min.js"></script>
+    <script src="./js/gallery.js"></script>
+  </body>
+</html>
